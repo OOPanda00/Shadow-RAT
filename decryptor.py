@@ -1,6 +1,3 @@
-# ShadowRAT 2026 Decryptor - For paying victims
-# python decryptor.py
-# Build: pyinstaller --onefile --windowed --name "Decryptor_2026" decryptor.py
 
 from cryptography.fernet import Fernet, InvalidToken
 import os
