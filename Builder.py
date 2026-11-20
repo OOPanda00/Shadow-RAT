@@ -1,6 +1,3 @@
-# ShadowRAT Multi-Platform Builder 2026
-# Supports: Windows EXE • Linux (standalone py / pyinstaller) • Android APK
-# Requirements: pyinstaller, buildozer (Linux only), tkinter
 
 import os
 import shutil
