@@ -1,4 +1,3 @@
-# ShadowRAT 2026 – Unified Requirements (Windows + Linux + Android)
 
 # ── Core / Common (all platforms) ───────────────────────────────────────────────
 pyTelegramBotAPI >= 4.14.0
