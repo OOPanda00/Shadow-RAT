@@ -1,6 +1,3 @@
-# ShadowRAT Android Edition - Telegram C2
-# Build with: buildozer android debug (Kivy + Buildozer required)
-# Python-for-Android compatible
 
 from kivy.app import App
 from kivy.uix.label import Label
